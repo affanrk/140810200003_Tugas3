@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 1.68061489014531E+15,"dur": 1848048, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.68061489030314E+15,"dur": 295387, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.68061489061432E+15,"dur": 1262208, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "04/04/2023 20:28:12",
+"meta_command_line": "\"C:\\Program Files\\Unity 2021.3.19f1\\Editor\\Unity.exe\" -projectpath C:\\Users\\affan\\Tugas_3 -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-affan -hubSessionId 5cb5a650-d2b7-11ed-9d6b-2bfa7badc5b8 -accessToken dagjUL8zI9Nb-tDf1aIsMBHY7BeD9KpKdZ46ysxJDLw011f",
+"meta_command_line_args": "C:\\Program Files\\Unity 2021.3.19f1\\Editor\\Unity.exe -projectpath C:\\Users\\affan\\Tugas_3 -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-affan -hubSessionId 5cb5a650-d2b7-11ed-9d6b-2bfa7badc5b8 -accessToken dagjUL8zI9Nb-tDf1aIsMBHY7BeD9KpKdZ46ysxJDLw011f",
+"meta_user_name": "affan",
+"meta_os_version": "Microsoft Windows NT 10.0.19045.0",
+"meta_cpu_count": "8"
+}
